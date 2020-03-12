@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Airline</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+
+    <script src="/js/Airplane.js"></script>
+</head>
+
+<body>
+<div class="myDiv">
+    <label>Airplan:</label>
+    <input id="airplaneName" type="text">
+
+    <label>Airport:</label>
+    <input id="airport" type="text">
+
+    <label>Feulamount:</label>
+    <input id="FeulAmount" type="number">
+</div><br><br>
+
+<button type="button" class="btn btn-success" id="createairplane">Creat plane</button>
+<button type="button" class="btn btn-success" id="getairplane">Get pline</button>
+
+<table class="table table-hover" id="datetable">
+    <thead>
+    <tr>
+        <th scope="col">Airplan</th>
+        <th scope="col">Airport</th>
+        <th scope="col">Feulamount</th>
+
+    </tr>
+    </thead>
+    <tbody class="table-active">
+
+
+    </tbody>
+</table>
+
+</body>
+</html>
